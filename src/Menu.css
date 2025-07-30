@@ -1,0 +1,86 @@
+.sorting-algorithms{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 500px;
+    margin: 50px ;
+    margin-top: 10px;
+}
+
+.sorting-algorithms p{
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+    text-decoration-color: aliceblue;
+}
+
+.sorting-algorithms ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sorting-algorithms li {
+    margin-bottom: 10px; 
+}
+
+.sorting-algorithms a {
+    text-decoration: none;   
+    color: inherit;    
+    transition: color 0.4s ease;     
+}
+
+
+.sorting-algorithms a:hover {
+    color: #79b2ef;         
+}
+
+.items{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.graph-algorithms{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin: 50px ;
+    margin-left: 500px;
+}
+
+.graph-algorithms p{
+    font-size: 50px;
+    color: aliceblue;
+    /* margin-left: 20px; */
+    text-decoration: underline;
+    font-weight: 700;
+    text-decoration-color: aliceblue;
+    margin-top: 0px;
+}
+
+.graph-algorithms ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.graph-algorithms li {
+    margin-bottom: 10px; 
+}
+
+.graph-algorithms a {
+    text-decoration: none;   
+    color: inherit;    
+    transition: color 0.4s ease;     
+}
+
+
+.graph-algorithms a:hover {
+    color: #79b2ef;         
+}

@@ -1,0 +1,66 @@
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  svg {
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .input-panel  h3{
+    color: aliceblue;
+  }
+
+  .input-panel input{
+    color: aliceblue;
+  }
+  
+  .info-panel {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .info-panel h3 {
+    color: #4caf50;
+  }
+  
+  .info-panel p {
+    margin: 0;
+    padding: 6px 12px;
+    background: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 5px;
+  }
+
+  .clear-button {
+    margin-top: 12px;
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .clear-button:hover {
+    background-color: #d32f2f;
+  }
+
+  .result-panel h3{
+    color: aliceblue;
+  }
+
+  .result-panel p{
+    color: aliceblue;
+  }
+
+  .result-panel ul{
+    color: aliceblue;
+  }
