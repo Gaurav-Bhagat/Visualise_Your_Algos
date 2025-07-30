@@ -15,7 +15,7 @@ An interactive web-based visualizer built using **React.js** that helps users un
 - **Dijkstra’s Algorithm** (Shortest Path)
 - **Topological Sort** (Kahn’s Algorithm)
 
-### ✅ UI Features
+### UI Features
 - Visual feedback with color-coded steps
 - Dark mode-friendly (black background)
 - give inputs of graph get your path
