@@ -4,7 +4,7 @@ An interactive web-based visualizer built using **React.js** that helps users un
 
 ## 🚀 Live Demo
 
-[🔗 Click here to view the deployed site](visualise-your-algos-navkcir3w-gaurav-bhagats-projects.vercel.app)
+[🔗 Click here to view the deployed site](https://visualise-your-algos.vercel.app/)
 
 ### Sorting Algorithms
 - Bubble Sort
