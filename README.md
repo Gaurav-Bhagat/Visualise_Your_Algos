@@ -4,8 +4,6 @@ An interactive web-based visualizer built using **React.js** that helps users un
 
 ## 🚀 Live Demo
 
-[🔗 Click here to view the deployed site](https://visualise-your-algos.vercel.app/)
-
 <a href="https://visualise-your-algos.vercel.app/" target="_blank">🔗 Live Demo</a>
 
 ### Sorting Algorithms
