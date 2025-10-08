@@ -4,9 +4,8 @@ An interactive web application to **visualize common algorithms**, including **s
 
 ---
 
-## DEMO
-visualise-your-algos.vercel.app
--->
+## Live Demo
+Check out the live version of the app here: [Visualize Your Algos](https://visualise-your-algos.vercel.app)
 
 ## Features
 
