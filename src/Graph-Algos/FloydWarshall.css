@@ -1,0 +1,96 @@
+.fw-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  /* background-color: #121212; */
+  color: aliceblue;
+  padding: 20px;
+  height: 100vh;
+}
+
+.fw-input-panel {
+  width: 250px;
+  /* background: #1e1e1e; */
+  border-radius: 10px;
+  padding: 15px;
+  /* box-shadow: 0 0 10px rgba(255,255,255,0.1); */
+}
+
+.fw-input-panel input {
+  display: block;
+  width: 90%;
+  margin: 8px 0;
+  padding: 6px;
+  /* border: none; */
+  border-radius: 5px;
+  /* background: #2b2b2b; */
+  color: #ccc;
+}
+
+.fw-input-panel input::placeholder {
+  color: #777;
+}
+
+.fw-input-panel button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.fw-input-panel button:hover {
+  background-color: #1976d2;
+}
+
+.fw-clear-btn {
+  background-color: #f44336 !important;
+}
+
+.fw-run-btn {
+  background-color: #4caf50 !important;
+}
+
+.fw-matrix-panel {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fw-table {
+  border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.fw-table th,
+.fw-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+.fw-table th {
+  background: #2196f3;
+  color: white;
+}
+
+.fw-updated {
+  background-color: #c8e6c9;
+  transition: background 0.3s;
+}
+
+.fw-infinite {
+  color: #999;
+  font-style: italic;
+}

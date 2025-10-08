@@ -1,0 +1,72 @@
+.graph-container {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+  font-family: Arial, sans-serif;
+  color: #ccc;
+}
+
+.input-panel input {
+  margin: 4px;
+  padding: 6px;
+  display: block;
+}
+
+.input-panel button {
+  margin: 8px 0;
+  padding: 8px 14px;
+  display: block;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.result-panel {
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+  max-width: 200px;
+}
+
+.canvas-panel svg {
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.clear-button {
+  margin-top: 12px;
+  padding: 6px 12px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
+}
+
+.result-panel h3 {
+  margin-top: 0;
+  color: #fffcfc;
+}
+
+.result-panel p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-top: 10px;
+  word-break: break-word;
+}
+
+/* Additional styles specific to Bellman-Ford (optional) */
+.edge-text {
+  font-size: 12px;
+  fill: black;
+}
+
+.node-circle {
+  stroke: #000;
+  stroke-width: 1.5px;
+}

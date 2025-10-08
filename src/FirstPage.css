@@ -1,0 +1,17 @@
+.first-page-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(43, 43, 43);
+}
+
+.first-page{
+    font-size: 75px;
+    color: aliceblue;
+}
+.algo{
+    font-size: 85px;
+    color: aliceblue;
+    margin-left:500px;
+    font-weight: 700;
+}

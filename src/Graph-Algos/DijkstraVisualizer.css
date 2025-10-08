@@ -1,0 +1,30 @@
+.main-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.input-panel {
+  width: 250px;
+  padding: 15px;
+  /* background: #f8f9fa; */
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+}
+
+.canvas-panel {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  color: chartreuse;
+}
+
+input::placeholder {
+  color: #aaa;
+  font-style: italic; 
+}
