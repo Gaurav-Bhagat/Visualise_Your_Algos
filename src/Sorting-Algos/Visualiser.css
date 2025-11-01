@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  height: 500px; /* ⬅️ increased from 300px to 500px */
+  height: 500px;
   margin: 30px auto;
   width: 90%;
   max-width: 900px;
@@ -26,10 +26,9 @@ body {
   box-sizing: border-box;
 }
 
-
 .bar {
   flex: 1 0 auto;
-  max-width: 40px; 
+  max-width: 40px;
   margin: 0 2px;
   background-color: #3498db;
   transition: height 0.3s ease, background-color 0.3s ease;
@@ -55,6 +54,8 @@ body {
   justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
+  align-items: center;
+  position: relative;
 }
 
 button {
@@ -80,13 +81,35 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.pass-log-sidebar h3{
-  color:#85c8f5;
-}
-.pass-log-content{
-  color:#85c8f5;
+.pass-log-sidebar {
+  position: fixed;                
+  right: 20px;
+  top: 100px;
+  width: 280px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background-color: #222a68;
+  border: 2px solid #85c8f5;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
 }
 
+.pass-log-sidebar h3 {
+  color: #85c8f5;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pass-log-content {
+  color: #d0e7ff;
+}
+
+.pass-log-content p {
+  margin: 5px 0;
+}
 
 .pivot {
   background-color: orange !important;
